@@ -1,4 +1,4 @@
-#Author: Heng Yang
+#Author: Alex Gerson
 # Keypad API Routines
 #
 	.syntax unified
@@ -61,7 +61,7 @@ end:
 */
 		#function definitions below main demo
 
-	/*Initialize the keypad GPIO port.  
+	/*Initialize the keypad GPIO port. Â 
 	  Depending on your scanning algorithm,
 	  there may not be any work to do in this method.*/
 		.global key_init
@@ -193,7 +193,7 @@ key_getkey_noblock:
 skip:
 	pop {R1-R12, PC}
 
-/*Same as key_getkey_noblock, but blocks – that is,
+/*Same as key_getkey_noblock, but blocks â€“ that is,
   waits until a key is pressed and then returns the key code.
   Per discussion in lecture, you may wish to return after said key is released.*/
 		.global key_getkey
@@ -215,7 +215,7 @@ key_getkey:
 	pop {R1-R12, PC}
 
 /*Similar to key_getkey, but returns the ASCII code corresponding to the key press.
-  This method blocks.  
+ Â This method blocks. Â 
   You should use a data structure in .rodata to map keys to characters.*/
 		.global key_getchar
 key_getchar:
