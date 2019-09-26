@@ -1,4 +1,4 @@
-#Author: Heng Yang
+#Author: Alex Gerson
 # LCD_API Routines
 	.syntax unified
 	.cpu cortex-m4
