@@ -1,4 +1,4 @@
-#Author: Heng Yang
+#Author: Alex Gerson
 .syntax unified
 	.cpu cortex-m4
   	.thumb
